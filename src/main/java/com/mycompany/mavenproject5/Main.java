@@ -132,13 +132,13 @@ public class Main extends Application {
     }
     // Metoda do tworzenia przykładowej listy książek
     private void initializeSampleBooks() {
-        bookManager.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", "aaaaaa", 1951));
-        bookManager.addBook(new Book("To Kill a Mockingbird", "Harper Lee", "aaaaaa", 1960));
-        bookManager.addBook(new Book("1984", "George Orwell", "aaaaaa", 1949));
-        bookManager.addBook(new Book("Moby-Dick", "Herman Melville", "aaaaaa", 1851));
-        bookManager.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", "aaaaaa", 1925));
-        bookManager.addBook(new Book("War and Peace", "Leo Tolstoy", "aaaaaa", 1869));
-        bookManager.addBook(new Book("Ulysses", "James Joyce", "aaaaaa", 1922));
+        bookManager.addBook(new Book("The Catcher in the Rye", "J.D. Salinger", "9783-1614-00", 1951));
+        bookManager.addBook(new Book("To Kill a Mockingbird", "Harper Lee", "12-345678-9", 1960));
+        bookManager.addBook(new Book("1984", "George Orwell", "13-609181-3", 1949));
+        bookManager.addBook(new Book("Moby-Dick", "Herman Melville", "4028-9462-6", 1851));
+        bookManager.addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald", "978-1-234", 1925));
+        bookManager.addBook(new Book("War and Peace", "Leo Tolstoy", "306-40615-7", 1869));
+        bookManager.addBook(new Book("Ulysses", "James Joyce", "978-0-30", 1922));
     }
     
     
